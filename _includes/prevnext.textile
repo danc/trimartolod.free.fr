@@ -1,6 +1,6 @@
 <div class="prevnext"> 
 	<a class="prev" href="{{ page.previous.url }}">
-	< {{ page.previous.title }}</a> &nbsp; 
-	<a class="next" href="{{ page.next.url }}" 
-	> {{ page.next.title }} > </a>
+	... &#x2619;&nbsp; {{ page.previous.title }}</a> &nbsp; 
+	<a class="next" href="{{ page.next.url }}"> 
+  {{ page.next.title }} &nbsp;&#x2767; ... </a>
 </div>

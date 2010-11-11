@@ -17,9 +17,10 @@ html, body {
 
 body {
   background-color: white;
-/*  background: url(http://trimartolod.free.fr/infos_asso/2009/20090726_TriMartolod_parcours_cotier/DSC_8698.jpg);
-  background: url(http://trimartolod.free.fr/mouette/2008/080913_tvk/dsc_0027.jpg);
+/*  
+background: url(cachou.jpg);
 */
+
   font-family:  Tahoma, Lucida, Verdana, Helvetica, arial, clean;
 }
 
@@ -42,21 +43,13 @@ a {
 }
 
 a:hover {
-
-  font-size: 130%;
-  padding: 2px;
-//  border-style: groove;
-//  border-width: 2px;
-// -moz-border-radius: 8px;
-// -webkit-border-radius: 8px;
+  border-bottom: 3px solid #aec2e7;
 }
 
-.nuage div a:hover {
-}
+
 
 a:visited {
   color: darkgrey; 
-  /*#a0a;*/
 }
 
 table {
@@ -68,15 +61,23 @@ table {
 /* Site
 /*
 /*****************************************************************************/
+.zoom:hover {
+   font-size: 130%;
+   border: 0px;
+}
+
 .bandeau {
 
  /* float: left;*/
   text-align: center;
   margin: 0em 2em 2em 1em;
-
+  background: url(aldine.png) no-repeat  160px 3px;
+ 
 }
-.bandeau span a {
- /*  color: black;*/
+.bandeau span a:hover {
+border-bottom: 4px solid #aec2e7;
+padding: 0px;
+//color: #aec2e7;
 }
 .top {
  float:left;
@@ -89,13 +90,11 @@ table {
  width: 800px;
  background:url(header.jpg) no-repeat;
 }
-/*
-.bandeau div a:hover {
-}
-*/
+
 .site ul li{
 	 margin: auto auto auto 3em;
-	 list-style-type: none;
+	 list-style-type: none; 
+
  }
 
 .site {
@@ -137,17 +136,35 @@ table {
  background:url(tag.png) no-repeat left 4px;
  line-height: auto;
 }
+#categories ul li{
+ list-style-type: none;
 
+}
 
 .powered {
   font-size: 85%;
   float: right;
 }
+.prev:hover {
+
+  font-size: 130%;
+   border: 0px;
+}
 
 .next {
 	float: right;
 	clear: right;
+  }
+.next:hover {  
+  font-size: 130%;
+   border: 0px;
 }
+.nuage div a:hover {  
+  font-size: 130%;
+   border: 0px;
+   color: #4e5a70
+}
+
 .citation {
 	float: right;
 	clear: right;
@@ -155,7 +172,7 @@ table {
   width: 25em;
  	margin : 0.5em ;
 	border: 1px dotted black;
-	background:#CFD8F8;
-	padding : 0.5em 
+	background:#aec2e7;
+	padding : 0.5em;
 
 }

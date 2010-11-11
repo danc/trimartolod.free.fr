@@ -1,6 +1,6 @@
 <br>
 <span class="date">
-	<a href="/{{  page.date | date: "%Y" }}">{{  page.date | date: "%Y" }}</a>  
-	<a href="/{{  page.date | date: "%Y" }}/{{  page.date | date: "%m" }}">{{  page.date | date: "%m" }}</a>   
-	<a href="/{{  page.date | date: "%Y" }}/{{  page.date | date: "%m" }}/{{  page.date | date: "%d" }}">{{  page.date | date: "%d" }}</a>
+	<a class="zoom" href="/{{  page.date | date: "%Y" }}">{{  page.date | date: "%Y" }}</a>  
+	<a class="zoom" href="/{{  page.date | date: "%Y" }}/{{  page.date | date: "%m" }}">{{  page.date | date: "%m" }}</a>   
+	<a class="zoom" href="/{{  page.date | date: "%Y" }}/{{  page.date | date: "%m" }}/{{  page.date | date: "%d" }}">{{  page.date | date: "%d" }}</a>
 </span>

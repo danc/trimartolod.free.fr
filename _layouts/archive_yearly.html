@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<h1><a href="/{{ page.year | minus: 1 }}"> < </a> {{ page.year }} 
+<h1><a href="/{{ page.year | minus: 1 }}"> ... &#x2619; </a> {{ page.year }} 
 
-<a href="/{{ page.year | plus: 1 |  }}"> > </a> 
+<a href="/{{ page.year | plus: 1 |  }}"> &#x2767; ...</a> 
 
 
 </h1>
@@ -16,7 +16,7 @@ layout: default
     {% for d in (1..31) reversed %}
       {% if site.collated_posts[page.year][m][d] %}
         {% for p in site.collated_posts[page.year][m][d] reversed %}
-          <li><a href='{{ p.url }}'>{{ p.title }}</a></li>
+          <li><a class="zoom" href='{{ p.url }}'>&#x2767;&nbsp;{{ p.title }}</a></li>
         {% endfor %}
       {% endif %}
     {% endfor %}
