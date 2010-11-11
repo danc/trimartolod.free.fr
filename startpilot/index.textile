@@ -1,0 +1,118 @@
+---
+layout: basic
+title: StartPilot, un outil pour faciliter la mise à jour du site
+---
+
+"http://trimartolod.free.fr/startpilot":http://trimartolod.free.fr/startpilot
+
+h1. StartPilot : un outil pour faciliter la mise à jour du site
+
+h2. Qu'est-ce que c'est ?
+
+Cet outil est à destination des membres de l'association Tri Martolod, pour faciliter le travail de publication de galeries de photos et d'articles pour le site "trimartolod.free.fr":http://trimartolod.free.fr
+
+h2. Comment ça fonctionne ?
+
+Une fois installé, le logiciel permet de :
+* sélectionner des photos depuis l' explorateur de fichiers "(*click droit/Envoyer vers/trimartolod.bat*)":http://trimartolod.free.fr/startpilot/startpilot-envoyer.png
+
+Cette commande va avoir pour effet de :
+* lancer la réduction, le marquage des photos, et la génération des miniatures
+* préparer une gallerie photo accessible depuis n'importe quel article
+* générer automatiquement un squelette de l'article (et ouvrir un éditeur dessus, pour ajouter votre prose)
+* "lancer automatiquement les moulinettes de conversion":http://trimartolod.free.fr/startpilot/startpilot-local.png, et l'affichage du site en "local dans votre navigateur":http://trimartolod.free.fr/startpilot/startpilot-localhost.png
+
+h2. Et ensuite ?
+
+Une prochaine version cherchera à envoyer directement les nouveaux fichiers générés sur le site.
+
+En attendant, il faut envoyer au webpasteur les fichiers suivants :
+* l'article (le dernier fichier .textile qui a été généré sous *c:\startpilot\tm\_posts\*)
+* la gestion de la gallerie photo (le dernier fichier .html qui a été généré sous *c:\startpilot\tm\_includes\*)
+* Les photos réduites et leurs miniatures générées sous *c:\startpilot\tm\infos_asso\<année en cours>\<nom du répertoire>*
+
+<nom du répertoire> correspond au nom du répertoire d'ou viennent vos photos à l'origine. Ce nom est aussi utilisé pour le nom du fichier de l'article et de la gallerie photo.
+
+Tous ces fichiers seront insérés automatiquement dans un .zip (sous *C:\startpilot\modifs.zip*) à envoyer directement par mail.
+
+Ce fichier peut contenir plusieurs articles et plusieurs galleries au fur et à mesure que vous les créez. Pensez à  expédier régulièrement *modifs.zip* (puis à le détruire) pour que ce fichier ne grossisse pas trop.
+
+Il est même possible de modifier un article existant, celui-ci sera placé automatiquement dans *modifs.zip* à condition que la "moulinette de conversion":http://trimartolod.free.fr/startpilot/startpilot-local.png soit en train de fonctionner.
+
+h2. Quelques recommendations pour gérer et classer vos photos :
+
+- extension .jpg, .JPG, .jpeg, .png  
+- classer les photos dans des chemins sans espaces ni accents (ex: '20100919_photos_beniguet' au lieu de 'Photos Béniguet')
+- pas d'espaces ou d'accents dans le chemin des photos (à re tester) (ex: 'C:\MesPhotos\AssociationTriMartolod' au lieu de 'c:\Mes Photos\Association Tri Martolod')
+- si possible, mais là je pinaille, mettre la date dans le nom du répertoire (ex: '20100919_photos_beniguet' au lieu de 'Photos Béniguet'), au format AAAAMMDD, c'est à dire Année, Mois, jour
+
+N'éditez les fichiers qu'avec "Notepad++Portable":http://trimartolod.free.fr/startpilot/startpilot-local.png, ou un autre éditeur qui respecte l'encodage des fichiers.
+C'est un éditeur de texte pratique qui peut vous servir à d'autres usages.
+
+h2. Je le veux !
+
+* Windows (testé XP Pro SP3)  "télécharger pour Windows":http://trimartolod.free.fr/startpilot/download/
+
+* Linux et MacOS  
+Les différents composants ont été utilisés sous Linux depuis longtemps (voir crédits), et sous MacOS cela ne devrait pas poser de gros problèmes. 
+A suivre, ou demander des instructions pour installer les composants et récupérer les sources du site.
+Le fichier trimartolod.rb est documenté, fonctionne sous linux et fait la grosse part du boulot. Adapter le  fichier de config startpilot.yml en ~/.startpilot
+
+
+h2. Notes
+
+Selon les machines, la re-génération du site en local peut prendre un peu de temps : l'affichage en local ("http://localhost:4000":http://localhost:4000) n'est pas disponible tout de suite, il faut la plupart du temps réafficher depuis le bouton du navigateur.
+
+Tant que la moulinette de conversion tourne, vous pouvez modifier le fichier de l'article : chaque sauvegarde du fichier redéclenche une génération des fichiers.
+Une fois terminé, vous pouvez fermer toutes les fenêtres que l'outil a ouvert.
+
+Il est possible de "relancer la moulinette de conversion seule":http://trimartolod.free.fr/startpilot/startpilot-local.png  par exemple pour créer un article sans photos.
+
+Si vous avez oublié une photo dans une gallerie, il suffit de sélectionner les photos manquantes et de recommencer "(*click droit/Envoyer vers/trimartolod.bat*)":http://trimartolod.free.fr/startpilot/startpilot-envoyer.png
+
+h2. Crédits
+
+* "Jekyll":http://github.com/mojombo/jekyll, "jekyll_ext":http://github.com/rfelix/jekyll_ext
+* "ImageMagick":http://www.imagemagick.org/
+* "Ruby":http://ruby-lang.org/fr/
+* "Notepad++":http://notepad-plus-plus.org/ ("Portable":http://portableapps.com/apps/development/notepadpp_portable)
+* "Syncftp":https://github.com/glejeune/syncftp
+
+h2. License
+
+"GPLV3":http://www.gnu.org/licenses/gpl-3.0.html pour les sources de l'installeur et les fichiers à la racine de c:\startpilot\tools
+
+Voir les autres logiciels pour leurs license respectives
+
+h2. Sources
+
+"https://github.com/danc/startpilot":https://github.com/danc/startpilot
+Le reste est accessible en clair à partir des fichiers installés sous c:\startpilot et dans le répertoire SendTo de l'utilisateur
+
+Notamment, on y trouve sous c:\startpilot\tools  les versions allégées de ruby, imagemagick, et Notepad++Portable
+
+
+h2. Reste à faire
+
+* La synchronisation avec le site
+
+
+"Plus de détails":https://github.com/danc/startpilot/blob/master/CHANGES.textile
+
+h2. Additions à startpilot
+
+Quelques petits installeurs supplémentaires pour windows, à installer après startpilot
+
+---
+
+* "Reduire photos":http://trimartolod.free.fr/startpilot/download/reduire-photos.exe
+Vous permet de réduire vos photos facilement avant de les envoyer par mail par exemple.
+Installé dans le menu 'click droit/envoyer vers.../reduire_photos.bat' de l'explorateur,
+permet de réduire les photos dans un sous répertoire www du répertoire courant,
+en 120 points par pouce (suffisant pour un écran d'ordinateur) 
+et en taille 1024 pixel max, avec une qualité jpeg 80%
+
+---
+
+* "Trimartolod Data":http://trimartolod.free.fr/startpilot/download/TriMartolod_Data.exe
+Contient la dernière mise à jour des fichiers sources des articles, des modèles de gallerie photo, feuilles de style, ... pour générer le site en local avec startpilot.

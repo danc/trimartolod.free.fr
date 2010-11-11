@@ -1,0 +1,10 @@
+---
+layout: post
+spip_id: 57
+title: "Archives photo du Dom Michel"
+tags: [dommichel, photo]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article57
+
+
+"Archives photo du Dom Michel":http://trimartolod.free.fr/dommichel

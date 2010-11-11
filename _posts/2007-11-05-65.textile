@@ -1,0 +1,61 @@
+---
+layout: post
+spip_id: 65
+title: "Classement du parcours côtier 2007"
+tags: [rassemblement, parcourscotier]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article65
+
+Vous  l'avez voulu, vous l'avez attendu longtemps ?
+Le voilà : le classement/résultat du parcours côtier par catégories.
+
+Il faut dire qu'il a été sujet à de complexes et savants calculs auprès desquels le calcul des éphémérides sur Saturne fait pâle figure, il a été reporté par:
+
+* des vacances
+
+* un déménagement (au fond du carton rouge, sous la pile du bout)
+
+* la rentrée
+
+* une naissance
+
+
+Alors s'il vous plait, pas trop de contestations ...  ;)
+ 
+ 
+h1. Bateaux de plaisance &#8211; 7m
+
+|*Classement*|*Nom du bateau*|*Gréement/type*|
+|1|ABCD|Caravelle|
+|2|Avel Mor|Vaurien Marconi|
+
+
+h1. Bateaux de plaisance + 7m
+
+
+|*Classement* | *Nom du bateau* | *Gréement/type*|
+|1|Vega|Marconi|
+|2|Sapphire|Cornish Crabber|
+
+
+h1. Bateaux de travail - 7m
+
+
+|*Classement*| *Nom du bateau*| *Gréement/type*|
+|1|Goéland | Misainier|
+|2|La Veuve Joyeuse | Misainier|
+|abandon|Toutouic | Canot à misaine, voile au tiers|
+|Non présent sur la ligne mais venu du Fret jusqu'au Conquet le samedi matin !|Brava|Canot breton camarétois (mauritanien)|
+
+
+h1. Bateaux de travail + 7m
+
+
+|*Classement*| *Nom du bateau* | *Gréement/type*|
+|1| La Mouette | Côtre coquillier|
+|2| L'immaculée conception | coquillier|
+
+Bravo et merci à tous les participants et organisateurs pour ce beau parcours, et à une prochaine ?
+
+
+ !http://trimartolod.free.fr/spip/IMG/icones/ods-dist.png! "pièce jointe":http://trimartolod.free.fr/spip/IMG/ods/Resultat_challenge_konk_leon_2007.ods

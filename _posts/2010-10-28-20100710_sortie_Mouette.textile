@@ -1,0 +1,12 @@
+---
+layout: post
+published: true
+date: 2010-07-10
+tags: [ photo, asso, Mouette]
+title: 20100710 sortie Mouette en famille
+---
+
+Un petit tour en mer pour les mousses et leurs familles
+
+{% include 20100710_sortie_Mouette.html %}
+

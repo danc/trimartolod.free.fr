@@ -1,0 +1,161 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+/*  background: url(http://trimartolod.free.fr/infos_asso/2009/20090726_TriMartolod_parcours_cotier/DSC_8698.jpg);
+  background: url(http://trimartolod.free.fr/mouette/2008/080913_tvk/dsc_0027.jpg);
+*/
+  font-family:  Tahoma, Lucida, Verdana, Helvetica, arial, clean;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 130%;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+
+a {
+  color:  gray;
+  text-decoration: none;
+}
+
+a:hover {
+
+  font-size: 130%;
+  padding: 2px;
+//  border-style: groove;
+//  border-width: 2px;
+// -moz-border-radius: 8px;
+// -webkit-border-radius: 8px;
+}
+
+.nuage div a:hover {
+}
+
+a:visited {
+  color: darkgrey; 
+  /*#a0a;*/
+}
+
+table {
+  font: 100%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+.bandeau {
+
+ /* float: left;*/
+  text-align: center;
+  margin: 0em 2em 2em 1em;
+
+}
+.bandeau span a {
+ /*  color: black;*/
+}
+.top {
+ float:left;
+}
+.bandeau1 {
+ margin-left:auto;
+ margin-right:auto;
+
+ height: 150px;
+ width: 800px;
+ background:url(header.jpg) no-repeat;
+}
+/*
+.bandeau div a:hover {
+}
+*/
+.site ul li{
+	 margin: auto auto auto 3em;
+	 list-style-type: none;
+ }
+
+.site {
+  padding: 1em;
+  font-size: 90%;
+  text-align: justify;
+  width: 77%;
+  margin:  auto;
+  line-height: 1.5em;
+  background-color: white;
+}
+
+.title {
+  color: #a00;
+  font-weight: bold;
+  margin-bottom: 2em;  
+}
+
+.site .meta {
+  color: #aaa;
+}
+
+#post {
+   padding: 1em;
+   
+   /*
+    border: 1px solid black;  
+   -moz-border-radius: 8px;
+   */
+   }
+
+#post h1:first-letter  { font-size: 200%; float: none }
+
+#categories {
+ font-size: 85%;
+ float: right;
+ clear: right;
+ padding: 2px 0 0 2em;
+ background:url(tag.png) no-repeat left 4px;
+ line-height: auto;
+}
+
+
+.powered {
+  font-size: 85%;
+  float: right;
+}
+
+.next {
+	float: right;
+	clear: right;
+}
+.citation {
+	float: right;
+	clear: right;
+  text-align: justify;
+  width: 25em;
+ 	margin : 0.5em ;
+	border: 1px dotted black;
+	background:#CFD8F8;
+	padding : 0.5em 
+
+}

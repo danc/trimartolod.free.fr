@@ -1,0 +1,10 @@
+---
+layout: post
+spip_id: 89
+title: "Les photos 'asso'"
+tags: [asso, photo]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article89
+
+
+"Photos Asso":http://trimartolod.free.fr/infos_asso

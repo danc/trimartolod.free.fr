@@ -1,0 +1,11 @@
+---
+layout: post
+spip_id: 77
+title: "Atelier avirons"
+tags: [asso, photo]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article77
+
+En trois après-midis, nous avons fabriqué et réparé quelques avirons, de A à Z. En effet, il est bien difficile de trouver des avirons de godille dignes de ce nom...
+"
+Les photos et commentaires sont là":http://trimartolod.free.fr/infos_asso/index.php?spgmGal=2008/atelier_avirons-fevrier2008

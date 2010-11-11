@@ -1,0 +1,35 @@
+---
+layout: post
+spip_id: 33
+title: "Est-ce que la Mouette flotte à c't'heure ?"
+tags: [fichespratiques, mouette]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article33
+
+Modifications 02/10/2006 : L'horloge à marée de frbateaux.net !
+
+<iframe src="http://horloge.maree.frbateaux.net/ws80" width="226" height="217" frameborder="0" scrolling="no"><a href="http://maree.frbateaux.net" target="_top">Calendrier des marées - heure, hauteur et coefficient de marée</a></iframe>
+
+On se pose souvent la question de savoir si il faut mettre ses bottes ""Bon, d'accord, mes bottes c'est un mauvais exemple, j'aurai les pieds mouillés de toutes façons. Père Noël ! Des bottes taille 43 !  ou prendre l'aviron de l'annexe pour aller à bord, pour préparer une sortie, prévoir un retour, ...
+
+Depuis quelque temps, je pensais demander à Had de nous installer un "logiciel de calcul de marée":http://www.flaterco.com/xtide, étalonné sur le Conquet, pour afficher la hauteur d'eau par exemple.
+
+Et puis je me suis rendu compte que c'était déjà fait sur "http://maree.frbateaux.net":http://maree.frbateaux.net . Basé sur les données du shom en plus ...
+
+Alors les données sont à affiner et à compléter :
+
+Sur son mouillage au pied de la maison des Seigneurs, la Mouette avec une hauteur d'eau""hauteur d'eau par rapport au zéro des cartes de :
+
+| 4m50| talonne| "Voir le graphique en cours":http://maree.frbateaux.net/80?ht=4.5 |
+| 2m60 | échoue complètement (accès à pied humide) |"Voir le graphique en cours":http://maree.frbateaux.net/80?ht=2.6 |
+
+
+Plusieurs paramètres existent :
+
+| "http://maree.frbateaux.net/80?ht=4.5":http://maree.frbateaux.net/80?ht=4.5  | ( 80 = Conquet avec hauteur 4m50 : hauteur d'eau minimum pour que la Mouette flotte à son mouillage au pied de la maison des Seigneurs)|
+|"http://maree.frbateaux.net/80?ht=4.5&g=2":http://maree.frbateaux.net/80?ht=4.5&g=2 | (idem sur 7 jours) |
+|"http://maree.frbateaux.net/80?g=3":http://maree.frbateaux.net/80?g=3 | (idem avec photo aérienne de la côte et autres ports proches) |
+
+Attention : la hauteur d'eau réelle peut changer de plusieurs centimètres  selon les conditions atmosphériques et météo !
+
+

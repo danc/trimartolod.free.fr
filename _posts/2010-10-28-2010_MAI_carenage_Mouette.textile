@@ -1,0 +1,11 @@
+---
+layout: post
+published: true
+date: 2010-05-01
+tags: [ photo, asso, mouette]
+title: 2010 MAI carenage Mouette
+---
+
+Carénage annuel de la Mouette
+
+{% include 2010_MAI_carenage_Mouette.html %}

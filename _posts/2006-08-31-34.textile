@@ -1,0 +1,23 @@
+---
+layout: post
+spip_id: 34
+title: "Ateliers hiver 2006"
+tags: [fichespratiques, atelier]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article34
+
+Cet hiver ont eu lieu des atelier voilerie et matelotage :
+
+Les illustrations sont tirées de l'ouvrage :
+
+Matelotage et voilerie à l'usage des plaisanciers, de Georges Devillers, Ed. Le Chasse-Marée Armen
+
+Le texte est de Christophe (voir les documents joints ci-dessous)
+
+"Palans, format OpenOffice":http://trimartolod.free.fr/spip/IMG/zip_zip_zip_palans.odt.zip
+
+"Palans, format PDF":http://trimartolod.free.fr/spip/IMG/pdf/palans.pdf
+
+"Voilerie, format OpenOffice":http://trimartolod.free.fr/spip/IMG/zip_zip_zip_voilerie.odt.zip
+
+"Voilerie, format PDF":http://trimartolod.free.fr/spip/IMG/pdf/voilerie.pdf

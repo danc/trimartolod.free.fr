@@ -1,0 +1,17 @@
+---
+layout: post
+spip_id: 79
+title: "Est-ce que la Mouette flotte au Croaë ?"
+tags: [fichespratiques, mouette]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article79
+
+Suite au remarquable article "sur son mouillage au pied de la maison des Seigneurs":/articles/2006/08/31/33, j'ai noté la hauteur d'eau nécessaire pour faire flotter  la Mouette lorsqu'elle est sur la zone de carénage au "Croaë":http://fr.wikipedia.org/wiki/Passerelle_du_Croa%C3%AB (l'étrave environ 3 mètres en arrière de la chaîne traversière)
+
+| 6m| talonne| "Voir le graphique en cours":http://maree.frbateaux.net/80?ht=6 |
+| 5m45| échoue | "Voir le graphique en cours":http://maree.frbateaux.net/80?ht=5.45 |
+| 4m8 | échoue complètement (accès à pied humide) | "Voir le graphique en cours":http://maree.frbateaux.net/80?ht=4.8|
+
+Ca pourra servir l'année prochaine pour les peintres qui veulent dormir un peu plus, ou pour les charpentiers qui veulent monter à bord sans annexe.
+
+Question subsidiaire : "Quand la Mouette repart-elle de là pour son mouillage d'été":http://maree.frbateaux.net/80?ht=6&g=2 ?

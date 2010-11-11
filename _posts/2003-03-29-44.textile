@@ -1,0 +1,32 @@
+---
+layout: post
+spip_id: 44
+title: "L'association Tri Martolod"
+tags: 
+- presentation
+- asso
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article44
+
+L'association (loi 1901) Tri Martolod a été créée en 1991, afin de restaurer un misainier récupéré dans une vasière.
+
+{% include quirataires_goeland.html %}
+
+Elle a pour but de de préserver et transmettre les savoir faire du patrimoine maritime. 
+
+{% include quirataires_mouette.html %}
+
+Cinq bateaux font aujourd'hui partie de l'association Tri Martolod.
+
+{% include quirataires_toutouic.html %}
+
+Chaque été ils naviguent pour le plus grand plaisir des membres de l'association (pêche, balade, croisière, rassemblements de vieux gréements). 
+
+{% include quirataires_fleurdesabers.html %}
+
+Tri Martolod a son port d'attache au Conquet. 
+
+{% include quirataires_dommichel.html %}
+
+Petit port près de Brest dans le Finistère, "le Conquet":http://www.leconquet.fr est avant tout un port de pêche : tout les bateaux de l'association sont d'anciens navires de travail.
+Découvrez "nos bateaux":/tag/bateaux !

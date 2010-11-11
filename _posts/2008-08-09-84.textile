@@ -1,0 +1,9 @@
+---
+layout: post
+spip_id: 84
+title: "Affiche du parcours côtier"
+tag: parcourscotier
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article84
+
+Une jolie "affiche":http://trimartolod.free.fr/spip/IMG/pdf/Affiche_KonkLeon_2008_V2.pdf avec quelques infos pour faire de la pub pour le parcours du 16 août :

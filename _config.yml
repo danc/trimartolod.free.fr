@@ -1,0 +1,25 @@
+destination: ./_site
+auto:        false
+lsi:         false
+server_port: 4000
+pygments:    false
+markdown:    maruku
+permalink:   /articles/:year/:month/:day/:title
+exclude: [ejekyll.exe, trimartolod.rb, Tri_Martolod_Local.URL, trimartolod_local.bat, tools, README, .git, .gitignore ]
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+# Change the dir the individual tag files are output to
+tag_dir: tag # Default is tags
+# Title to be used when generating the individual tag html files prefixed with tag name
+tag_title_prefix: "Tags &raquo; "
+# Change the dir the individual category files are output to
+category_dir: topics # Default is categories
+# Title to be used when generating the individual category html files prefixed to category name
+category_title_prefix: "Themes &raquo; "
+ftp_host: ftpperso.free.fr
+ftp_dir: /
+

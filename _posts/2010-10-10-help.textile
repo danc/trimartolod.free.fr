@@ -1,0 +1,46 @@
+---
+layout: post
+published: false
+date: 2010-10-10
+tags: [ site, toutouic ]
+title: Une aide pour éditer les articles
+---
+
+Salut ! 
+Quelques infos supplémentaires pour bien éditer vos articles :
+
+Cette aide est elle-même rédigée sous forme d'article, c'est un petit mémo pour se rappeler du principal.
+
+h1. Entête
+
+Il s'agit du début de ce fichier, entre deux ---
+
+Cet article est situé au même niveau que les autres, sous c:\startpilot\tm\_posts mais n'est pas publié sur le site (voir en-ête published: false). Vous pouvez faire de même pour un article temporaire ou pour ne pas faire apparaitre un article sur le site.
+
+La date est générée automatiquement lors de la création. Cette entête n'est pas nécessaire, par défaut le système prend en compte la date figurant dans le nom du fichier (ici 2010-10-10). Ce format est obligatoire pour que le fichier soit pris en compte, par contre la date peut être surchargée en modifiant l'entête à votre guise, tout en respectant le format AAA-MM-JJ (Année, mois, jour)
+
+Idem pour le titre : le reste du nome du fichier sert de titre par défaut, mais peut être surchargé dans l'entête du fichier (on peut mettre des accents, des espaces, pas de ':')
+
+les tags sont les mots-clés associés à un article : il permettent de regrouper les articles par thèmes, sans avoir à les ranger à la main. Utilisez si possible des mots courts (en général en minuscule), et de préférence réutilisez au maximum ceux déjà utilisés sur le site (voir "http://trimartolod.free.fr/tag":/tag).
+
+Pour ne pas avoir de problème avec les accents, veillez à ce que l'encodage soit  'ANSI as UTF-8' sous Notepad++ (voir en bas à droite dans Notepad++). et le menu Encodage/'Encoder/Convertir en UTF8 (sans BOM)'
+
+h1. Formatage léger
+
+Le texte tapé est transformé en une page affichable dans un navigateur. 
+Quelques indications simples permettent de transformer le texte :
+
+_italique_
+
+*gras*
+
+"URL sur un site":http://trimartolod.free.fr
+
+h1. Titre de paragraphe
+
+inclusion d'une gallerie photo (fichier géré automatiquement sous c:\startpilot\tm\_includes):
+Veiller à laisser une ligne vide avant et après :
+
+{% include 200909_beniguet_jca.html %}
+
+ 

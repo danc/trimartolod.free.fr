@@ -1,0 +1,16 @@
+---
+layout: post
+published: true
+date: 2010-10-01
+tags: [ photo, asso, mouette, iroise, île, beniguet]
+title: Une promenade a Beniguet
+---
+
+Super bien !
+Merci à Jean-Christophe pour les photos !
+
+{% include 200909_beniguet_jca.html %}
+
+Au retour, le bateau a été survolé par un photographe (surnommé _Brestitude_) qui en a profité pour faire de superbes photos aériennes, et qui nous a fait indirectement parvenir "ce lien":http://www.flickr.com/search/?q=la%20mouette&w=9547593%40N08 
+
+En attendant son autorisation pour le publier directement sur le site, avec un lien sur la page de son choix ...

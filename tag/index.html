@@ -1,0 +1,30 @@
+---
+layout: default
+title: Tags
+---
+
+<h1> Tags  (balises marquant un ou plusieurs articles sur le même thème) </h1>
+<div class="nuage">
+<div id="categories">
+<ul>
+{% for tag in site.iterable.tags %}
+  <a style="font-size: {{ tag.posts | size | times:1.5 | plus: 10 }}px" href="{{site.baseurl}}/tag/{{tag.name}}">
+    {{ tag.name }}</a>{% if forloop.last == false %},&nbsp;{% endif %}
+{% endfor %}
+</ul>
+</div>
+</div>
+<br>
+<br>
+
+{% for tag in site.iterable.tags %}
+
+<h2> <span class="tag" id="{{ tag.name | replace:' ','_' | downcase }}">{{ tag.name }}</span></h2>
+
+<ul>
+{% for post in tag.posts %}
+<li><a href="{{ site.baseurl }}{{post.url}}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% endfor %}

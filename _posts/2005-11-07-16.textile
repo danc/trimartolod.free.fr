@@ -1,0 +1,11 @@
+---
+layout: post
+spip_id: 16
+title: "La Mouette passe le Fort de Bertheaume"
+tags: [mouette, photo, rade]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article16
+
+Photo envoyée par le président du "club de plongée du Conquet":http://www.csa-plongee.com, en septembre 2005
+ 
+!http://trimartolod.free.fr/spip/IMG/jpg/sept_2005_fort_de_bertheaume.jpg!

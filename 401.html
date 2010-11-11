@@ -1,0 +1,24 @@
+---
+layout: default
+title: Association Tri Martolod
+---
+
+<div>
+ Désolé, la page demandée est en accès protégé ...
+</div>
+
+<br>
+<hr>
+7 derniers articles sur {{ site.posts | size }}  ...
+
+<ul>
+  {% for post in site.posts limit: 7 %}
+    <li>{{ post.date | date: "%Y %m %d " }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+
+</ul>
+
+
+<a href="/spip">Ancien index</a><div class="powered">Mouliné par <a href="/tag/jekyll"> jekyll</a></div>
+
+
