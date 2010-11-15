@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div id="prez">
 <h1><a href="/{{ page.year }}">{{ page.year }}</a> &nbsp; {{ page.month }} </h1>
 <ul>
   {% for d in (1..31) reversed %}
@@ -12,3 +12,4 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
+</div>

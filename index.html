@@ -5,30 +5,40 @@ title: Tri Martolod
 
 <div class="citation">
 <i>Sans
-noeuds et sans bois fourchu, il y aurait plus de charpentiers. (bretagne)</i>
+noeuds et sans bois fourchu, il y aurait plus de charpentiers. (prov. bretagne)</i>
 </div>
 
 <h1>
 Bienvenue sur le site de l'association<br/> Tri
 Martolod.</h1>
-
+<div class="une">
+<center><h5><i>A la une :</i></h5></center>
+{% for tag in site.iterable.tags %}
+{% if tag.name == 'accueil' %}
+<ul>
+{% for post in tag.posts %}
+<li>{{ post.date | date: "%d %b %Y " }}<a class="zoom" href="{{ site.baseurl }}{{post.url}}">&#x2767;&nbsp;{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
+</div>
 <img src="css/mouettechantier.gif" alt="Aquarelle d'Hubert Michéa. La 
-Mouette en chantier"/><i>Restauration
-et utilisation d'anciens bateaux de travail en bois.</i>
+Mouette en chantier"/>
+<p><i>Restauration et utilisation d'anciens bateaux de travail en bois.</i></p>
 
 
-<br/>
-<hr/>
+<div id="post">
 Les 7 derniers articles sur {{ site.posts | size }} ...
 
 <ul>
   {% for post in site.posts limit: 7 %}
-    <li>{{ post.date | date: "%Y %m %d " }} <a class="zoom" href="{{ post.url }}">{{ post.title }}</a></li>
+    <li>{{ post.date | date: "%d %b %Y " }} <a class="zoom" href="{{ post.url }}">&#x2767;&nbsp;{{ post.title }}</a></li>
   {% endfor %}
 
 </ul>
-
-<a href="/spip/">Ancien site</a><div class="powered">Mouliné par <a href="/tag/jekyll"> jekyll</a></div>
+</div>
+<!--a href="/spip/">Ancien site</a--><div class="powered">Mouliné par <a href="/tag/jekyll"> jekyll</a></div>
 
 <embed src="mus/trimartolod.mid" hidden="false" autostart="true" 
 loop="false" width=50 height=15 controller="false" 

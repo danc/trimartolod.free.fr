@@ -101,7 +101,7 @@ h2. Reste à faire
 
 h2. Additions à startpilot
 
-Quelques petits installeurs supplémentaires pour windows, à installer après startpilot
+Quelques petits installeurs supplémentaires pour windows, à installer *après* startpilot
 
 ---
 
@@ -116,3 +116,5 @@ et en taille 1024 pixel max, avec une qualité jpeg 80%
 
 * "Trimartolod Data":http://trimartolod.free.fr/startpilot/download/TriMartolod_Data.exe
 Contient la dernière mise à jour des fichiers sources des articles, des modèles de gallerie photo, feuilles de style, ... pour générer le site en local avec startpilot.
+
+Un fichier zip contenant les mêmes fichiers est régulièrement mis à jour "ici":https://github.com/danc/trimartolod.free.fr/zipball/master

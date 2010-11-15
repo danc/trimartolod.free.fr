@@ -5,7 +5,7 @@ layout: default
 <!--span class="citation">{{ page.citation }} </span-->
 
 {% if page.related %}
-<span id="categories">
+<div id="categories">
 <h1 > Tags associés : </h1>
 <ul>
 {% for tag in page.related %}
@@ -14,10 +14,11 @@ layout: default
 	</li>
 {% endfor %}
 </ul>
-</span>
-{% endif %}
 
-<span><h1> Tag: {{ page.tag }} </h1>
+{% endif %}
+</div>
+
+<div id="prez"><h1> Tag: {{ page.tag }} </h1>
 <ul>
 {% for post in site.tags[page.tag] %}
   <li> 
@@ -25,5 +26,5 @@ layout: default
   </li>
 {% endfor %}
 </ul>
-</span>
+</div>
 

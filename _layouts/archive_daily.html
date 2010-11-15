@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
- 
-<h1>{{ page.year }} {{ page.month }} {{ page.day }}</h1>
+ <div id="prez">
+<h1><a href="/{{ page.year }}">{{ page.year }}</a> {{ page.month }}  {{ page.day }}</h1>
 <ul>
   {% for p in site.collated_posts[page.year][page.month][page.day] reversed %}
     <li><a class="zoom"  href='{{ p.url }}'>&#x2767;&nbsp;{{ p.title }}</a></li>
   {% endfor %}
 </ul>
+</div>

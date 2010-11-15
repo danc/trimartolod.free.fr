@@ -14,9 +14,8 @@ title: Tags
 </ul>
 </div>
 </div>
-<br>
-<br>
 
+<div id="prez">
 {% for tag in site.iterable.tags %}
 
 <h2> <span class="tag" id="{{ tag.name | replace:' ','_' | downcase }}">{{ tag.name }}</span></h2>
@@ -28,3 +27,4 @@ title: Tags
 </ul>
 
 {% endfor %}
+</div>
