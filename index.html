@@ -9,7 +9,7 @@ noeuds et sans bois fourchu, il y aurait plus de charpentiers. (prov. bretagne)<
 </div>
 
 <h1>
-Bienvenue sur le site de l'association<br/> Tri
+Bienvenue sur le site<br/> de l'association<br/> Tri
 Martolod.</h1>
 <div class="une">
 <center><h5><i>A la une :</i></h5></center>
@@ -30,7 +30,7 @@ Mouette en chantier"/>
 
 <div id="post">
 Les 7 derniers articles sur {{ site.posts | size }} ...
-
+<hr/>
 <ul>
   {% for post in site.posts limit: 7 %}
     <li>{{ post.date | date: "%d %b %Y " }} <a class="zoom" href="{{ post.url }}">&#x2767;&nbsp;{{ post.title }}</a></li>

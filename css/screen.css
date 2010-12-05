@@ -20,12 +20,15 @@ body {
 /*  
 background: url(cachou.jpg);
 */
-
-  font-family:  Tahoma, Lucida, Verdana, Helvetica, arial, clean;
+  color: #444444;
+  font-family: 'Droid Sans',"Helvetica Neue",Helvetica,Verdana,sans-serif;
+  font-size: 14pt;
+  line-height: 1.3em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 130%;
+  text-shadow: 0px 1px 1px #666;
 }
 
 h1 {
@@ -69,16 +72,16 @@ table {
  /* float: left;*/
   text-align: center;
   margin: 0em 2em 2em 1em;
-  background: url(aldine.png) no-repeat  160px 3px;
+  background: url(aldine.png) no-repeat  175px 3px;
  
 }
 .bandeau span a:hover {
-border-bottom: 4px solid #aec2e7;
-padding: 0px;
-//color: #aec2e7;
+  border-bottom: 4px solid #aec2e7;
+  padding: 0px;
+
 }
 .top {
- float:left;
+  float:left;
 }
 .bandeau1 {
  margin-left:auto;
@@ -100,10 +103,9 @@ padding: 0px;
  }
 
 .site {
-  padding: 1em;
-  font-size: 90%;
+  /*padding: 1em;*/
   text-align: justify;
-  width: 77%;
+  width: 85%;
   margin:  auto;
   line-height: 1.5em;
   background-color: white;
@@ -120,6 +122,7 @@ padding: 0px;
 }
 
 #post {
+  border: 1px solid darkgrey;
   background: #add2db;
 	padding : 0.5em;
   border-radius: 6px;
@@ -127,7 +130,9 @@ padding: 0px;
 	-webkit-border-radius: 6px ;
 	-khtml-border-radius: 6px ;
    }
-
+#post h1 {
+	border-bottom: 1px solid gray;
+}
 #post h1:first-letter  { font-size: 200%; float: none }
 
 #categories {
@@ -149,6 +154,11 @@ padding: 0px;
   font-size: 85%;
   float: right;
 }
+
+.prev {
+/* background: url(aldineg.png) no-repeat  left top; */
+float:left;
+}
 .prev:hover {
 
   font-size: 130%;
@@ -158,6 +168,8 @@ padding: 0px;
 .next {
 	float: right;
 	clear: right;
+ /* background: url(aldine.png) no-repeat  right top; */
+
   }
 .next:hover {  
   font-size: 130%;
@@ -173,7 +185,7 @@ padding: 0px;
 	float: right;
 	clear: right;
   text-align: justify;
-  width: 25em;
+  width: 30em;
  	margin : 0.5em ;
 	border: 1px solid darkgrey;
 	background:#aec2e7;
@@ -188,7 +200,7 @@ padding: 0px;
 	float: right;
 	clear: right;
   text-align: justify;
-  width: 25em;
+  width: 30em;
  	margin : 0.5em ;
 	border: 1px solid darkgrey;
 	background:#e99879;
@@ -217,4 +229,8 @@ padding: 0px;
 	-webkit-border-radius: 6px ;
 	-khtml-border-radius: 6px ;
    }
-
+   
+.date {
+  font-size: 85%;
+  
+}

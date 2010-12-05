@@ -1,4 +1,4 @@
-<br>
+
 <span class="date">
 	<a class="zoom" href="/{{  page.date | date: "%Y" }}">{{  page.date | date: "%Y" }}</a>  
 	<a class="zoom" href="/{{  page.date | date: "%Y" }}/{{  page.date | date: "%m" }}">{{  page.date | date: "%m" }}</a>   
