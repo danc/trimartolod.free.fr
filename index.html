@@ -7,26 +7,18 @@ title: Tri Martolod
 <div id="asso">
 <b>
 Association Tri Martolod</b>
-<i>Restauration et utilisation d'anciens bateaux de travail en bois.</i></div>
+<i>Restauration et utilisation d'anciens bateaux de travail en bois</i>
+</div>
 
 <div class="citation">
-<i>Sans
-noeuds et sans bois fourchu, il y aurait plus de charpentiers. (prov. bretagne)</i>
+<i><p>Sans noeuds et sans bois fourchu,<br/>Il y aurait plus de charpentiers. </p>
+<p id="small">&nbsp;&nbsp;(prov. bretagne)</p></i>
 </div>
 
-<div class="mus">
-<audio  controls="controls"  >
-  <source src="http://trimartolod.free.fr/trimartolod.mp3" type="audio/mp3"> 
-  <source src="http://trimartolod.free.fr/trimartolod.ogg" type="audio/ogg"> 
-<!--- Pour les  navigateurs qui ne supportent pas html5 audio -->
-<embed src="mus/trimartolod.mid" hidden="false" autostart="true" 
-loop="false" width=50 height=15 controller="false" 
-controls=smallconsole /><bgsound src="mus/trimartolod.mid" loop="once"/>
-</audio>
-</div>
 
 <div class="une">
-<center><h5><i>A la une :</i></h5></center>
+<h5>à la une :</h5>
+<hr/>
 {% for tag in site.iterable.tags %}
 {% if tag.name == 'accueil' %}
 <ul>
@@ -38,23 +30,22 @@ controls=smallconsole /><bgsound src="mus/trimartolod.mid" loop="once"/>
 {% endfor %}
 </div>
 
+<div class="mus">
+<audio  controls="controls" autoplay>
+  <source src="http://trimartolod.free.fr/mus/trimartolod.mp3" type="audio/mp3"> 
+  <source src="http://trimartolod.free.fr/mus/trimartolod.ogg" type="audio/ogg"> 
+<!--- Pour les  navigateurs qui ne supportent pas html5 audio -->
 
-<div>
-
-
-<img src="css/mouettechantier.gif" alt="Aquarelle d'Hubert Michéa. La 
-Mouette en chantier"/>
-
-
-
+</audio>
 </div>
 
-
-
-
+<div>
+<img src="css/mouettechantier.gif" alt="Aquarelle d'Hubert Michéa. La 
+Mouette en chantier"/>
+</div>
 
 <div id="post">
-Les 7 derniers articles sur {{ site.posts | size }} ...
+<h5>les 7 derniers articles sur {{ site.posts | size }} ...</h5>
 <hr/>
 <ul>
   {% for post in site.posts limit: 7 %}
@@ -63,5 +54,8 @@ Les 7 derniers articles sur {{ site.posts | size }} ...
 
 </ul>
 </div>
+
+
+
 <div class="powered">Mouliné par <a href="/tag/jekyll"> jekyll</a></div>
 

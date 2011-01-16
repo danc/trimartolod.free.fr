@@ -1,6 +1,11 @@
 <div class="prevnext"> 
-	<a class="prev" href="{{ page.previous.url }}">
-	...  {{ page.previous.title }}</a> &nbsp; 
-	<a class="next" href="{{ page.next.url }}"> 
-  {{ page.next.title }} ... </a>
+   {% if page.previous != null %}
+    	<a class="prev" href="{{ page.previous.url }}"> &larr;  {{ page.previous.title }}</a> 
+    {% endif %}
+    
+    &nbsp; 
+  
+  {% if page.next != null %}
+	  <a class="next" href="{{ page.next.url }}"> {{ page.next.title }} &rarr; </a>
+  {% endif %}
 </div>
