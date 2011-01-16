@@ -6,7 +6,7 @@ tags: [ photo, asso, startpilot, tvk, rade, rassemblement]
 title: tvk 2010
 ---
 
-De très belles photos à "tvk":http://tvk.infini/fr par grande pétole.
+De très belles photos à "tvk":http://tvk.infini.fr par grande pétole.
 
 Merci à Nathalie, René, et toutes les personnes qui ont publié des photos sur le "site de TVK":http://tvk.infini.fr/nautique/index.php?option=com_joomgallery&func=viewcategory&catid=5&Itemid=70
 

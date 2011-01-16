@@ -17,23 +17,22 @@ html, body {
 
 body {
   background-color: white;
-/*  
-background: url(cachou.jpg);
-*/
   color: #444444;
   font-family: 'Droid Sans',"Helvetica Neue",Helvetica,Verdana,sans-serif;
-  font-size: 14pt;
+  font-size: 12pt;
   line-height: 1.3em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 130%;
   text-shadow: 0px 1px 1px #666;
 }
 
 h1 {
+  font-size: 130%;
   margin-bottom: 1em;
 }
+
+
 
 p {
   margin: 1em 0;
@@ -62,6 +61,15 @@ table {
 /* Site
 /*
 /*****************************************************************************/
+#asso b  {
+  font-family: 'Droid Sans',"Helvetica Neue",Helvetica,Verdana,sans-serif;
+  font-size: 12pt;
+  line-height: 1.3em;
+  font-size: 130%;
+  margin: 1em 0;
+  text-shadow: 0px 1px 1px #666;
+}
+
 .zoom:hover {
    font-size: 130%;
    border: 0px;
@@ -128,7 +136,11 @@ table {
   border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px ;
-	-khtml-border-radius: 6px ;
+	-khtml-border-radius: 6px ;  
+   -webkit-box-shadow: 5px 5px 3px #888;
+   -moz-box-shadow: 5px 5px 3px #888;
+   box-shadow: 5px 5px 3px #888;
+
    }
 #post h1 {
 	border-bottom: 1px solid gray;
@@ -154,6 +166,10 @@ table {
   font-size: 85%;
   float: right;
 }
+.prevnext {
+  padding: 24px 2px 2px 2px;
+ }
+
 
 .prev {
 /* background: url(aldineg.png) no-repeat  left top; */
@@ -185,7 +201,7 @@ float:left;
 	float: right;
 	clear: right;
   text-align: justify;
-  width: 30em;
+  width: 27em;
  	margin : 0.5em ;
 	border: 1px solid darkgrey;
 	background:#aec2e7;
@@ -194,13 +210,18 @@ float:left;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px ;
 	-khtml-border-radius: 6px ;
+   -webkit-box-shadow: 5px 5px 3px #888;
+   -moz-box-shadow: 5px 5px 3px #888;
+   box-shadow: 5px 5px 3px #888;
 
 }
 .une {
+
 	float: right;
 	clear: right;
+
   text-align: justify;
-  width: 30em;
+  width: 27em;
  	margin : 0.5em ;
 	border: 1px solid darkgrey;
 	background:#e99879;
@@ -209,6 +230,9 @@ float:left;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px ;
 	-khtml-border-radius: 6px ;
+   -webkit-box-shadow: 5px 5px 3px #888;
+   -moz-box-shadow: 5px 5px 3px #888;
+   box-shadow: 5px 5px 3px #888;
 
 
 }
@@ -221,6 +245,12 @@ float:left;
  color: #707070
  }
 
+.mus {
+	float: right;
+	clear: right;
+  margin : 0.5em ;
+	padding : 0.5em;
+  }
 #prez {
   background: #add2db;
 	padding : 0.5em;

@@ -3,14 +3,28 @@ layout: default
 title: Tri Martolod
 ---
 
+
+<div id="asso">
+<b>
+Association Tri Martolod</b>
+<i>Restauration et utilisation d'anciens bateaux de travail en bois.</i></div>
+
 <div class="citation">
 <i>Sans
 noeuds et sans bois fourchu, il y aurait plus de charpentiers. (prov. bretagne)</i>
 </div>
 
-<h1>
-Bienvenue sur le site<br/> de l'association<br/> Tri
-Martolod.</h1>
+<div class="mus">
+<audio  controls="controls"  >
+  <source src="http://trimartolod.free.fr/trimartolod.mp3" type="audio/mp3"> 
+  <source src="http://trimartolod.free.fr/trimartolod.ogg" type="audio/ogg"> 
+<!--- Pour les  navigateurs qui ne supportent pas html5 audio -->
+<embed src="mus/trimartolod.mid" hidden="false" autostart="true" 
+loop="false" width=50 height=15 controller="false" 
+controls=smallconsole /><bgsound src="mus/trimartolod.mid" loop="once"/>
+</audio>
+</div>
+
 <div class="une">
 <center><h5><i>A la une :</i></h5></center>
 {% for tag in site.iterable.tags %}
@@ -23,9 +37,20 @@ Martolod.</h1>
 {% endif %}
 {% endfor %}
 </div>
+
+
+<div>
+
+
 <img src="css/mouettechantier.gif" alt="Aquarelle d'Hubert Michéa. La 
 Mouette en chantier"/>
-<p><i>Restauration et utilisation d'anciens bateaux de travail en bois.</i></p>
+
+
+
+</div>
+
+
+
 
 
 <div id="post">
@@ -38,10 +63,5 @@ Les 7 derniers articles sur {{ site.posts | size }} ...
 
 </ul>
 </div>
-<!--a href="/spip/">Ancien site</a--><div class="powered">Mouliné par <a href="/tag/jekyll"> jekyll</a></div>
-
-<embed src="mus/trimartolod.mid" hidden="false" autostart="true" 
-loop="false" width=50 height=15 controller="false" 
-controls=smallconsole /><bgsound src="mus/trimartolod.mid" loop="once"/>
-
+<div class="powered">Mouliné par <a href="/tag/jekyll"> jekyll</a></div>
 
