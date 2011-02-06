@@ -6,7 +6,7 @@ tags: [fichespratiques, mouette]
 ---
 "article spip original":http://trimartolod.free.fr/spip/spip.php?article79
 
-Suite au remarquable article "sur son mouillage au pied de la maison des Seigneurs":/articles/2006/08/31/33, j'ai noté la hauteur d'eau nécessaire pour faire flotter  la Mouette lorsqu'elle est sur la zone de carénage au "Croaë":http://fr.wikipedia.org/wiki/Passerelle_du_Croa%C3%AB (l'étrave environ 3 mètres en arrière de la chaîne traversière)
+Suite au remarquable article "sur son mouillage au pied de la maison des Seigneurs":/2006/08/33, j'ai noté la hauteur d'eau nécessaire pour faire flotter  la Mouette lorsqu'elle est sur la zone de carénage au "Croaë":http://fr.wikipedia.org/wiki/Passerelle_du_Croa%C3%AB (l'étrave environ 3 mètres en arrière de la chaîne traversière)
 
 | 6m| talonne| "Voir le graphique en cours":http://maree.frbateaux.net/80?ht=6 |
 | 5m45| échoue | "Voir le graphique en cours":http://maree.frbateaux.net/80?ht=5.45 |

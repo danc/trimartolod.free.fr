@@ -4,7 +4,7 @@ lsi:         false
 server_port: 4000
 pygments:    false
 markdown:    maruku
-permalink:   /articles/:year/:month/:day/:title
+permalink:   /:year/:month/:title
 exclude: [ejekyll.exe, trimartolod.rb, Tri_Martolod_Local.URL, trimartolod_local.bat, tools, README, .git, .gitignore ]
 maruku:
   use_tex:    false
