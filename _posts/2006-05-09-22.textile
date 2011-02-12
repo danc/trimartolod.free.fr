@@ -1,6 +1,7 @@
 ---
 layout: post
 spip_id: 22
+date: 2006-05-09
 title: "La Mouette, Goéland et Toutouic prêts pour la saison"
 tags: [asso, mouette, goeland, toutouic]
 ---
