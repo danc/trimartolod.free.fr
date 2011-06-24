@@ -2,7 +2,7 @@
 layout: post
 published: true
 date: 2010-12-01
-tags: [ asso, goeland, accueil ]
+tags: [ asso, goeland, 20ans ]
 title: On n'a pas tous les jours 20 ans ...
 ---
 

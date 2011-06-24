@@ -1,0 +1,34 @@
+---
+layout: post
+published: true
+date: 2011-06-03
+tags: [ photo, asso, accueil, 20ans ]
+title: 20 ans Tri Martolod
+---
+
+Voilà, que d'émotions, des gens pas vus depuis longtemps !
+
+On a vu des photos, joué, discuté, picolé, mangé, chanté, on s'a promenés ...
+
+Tout simplement sympa d'être ensembles, 20 ans après ...
+
+Admirez la collection de T-shirts, dont certains inédits !
+
+Merci à tous, à ceux qui sont venus, "ceux qui n'ont pas pu venir":http://www.ledauphin.org/post/2011/05/30/Vingt-ans-d%C3%A9ja-!.html, et toutes celles et ceux qui, de près ou de loin, nous ont aidés à mettre à flot ces très jolis bateaux.
+Et le plus beau est à l'intérieur !
+
+Pardon à ceux qu'on n'a pas eu le temps de prévenir, il est temps de se ratrapper : 20 ans, ça dure toute l'année !
+
+
+{% include 20110603_20_ans_asso_trimartolod.html %}
+
+{% include 20110603_20_ans_trimartolod.html %}
+
+Merci à tou(te)s !
+
+
+PS: Pour les vingt ans, on se modernise :
+- un compte Twitter (alimenté automatiquement des derniers articles) : "http://twitter.com/Tri_Martolod":http://twitter.com/Tri_Martolod
+- un compte Flickr, pour envoyer vos photos facilement (plus d'infos sur la liste), et repérer les "jolies photos de nos bateaux sur flickr":http://www.flickr.com/photos/trimartolod/favorites/ (Il y en a !) : "http://www.flickr.com/photos/trimartolod/":http://www.flickr.com/photos/trimartolod/
+
+A vous de jouer !

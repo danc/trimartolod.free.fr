@@ -1,0 +1,17 @@
+---
+layout: post
+published: true
+date: 2011-05-04
+tags: [ photo, copains, goeland, rade ]
+title: 1992 goeland à l'Auberlach
+---
+
+Merci encore à Stéphane pour avoir exhumé ces jolis négatifs, et les avoir mis sur son site :
+
+"http://www.ledauphin.org/post/2011/04/08/Un-peu-de-fraicheur.html":http://www.ledauphin.org/post/2011/04/08/Un-peu-de-fraicheur.html
+
+{% include 1992_goeland_lauberlach.html %}
+
+(Photos Stéphane LeDauphin "http://www.ledauphin.org":http://www.ledauphin.org)
+
+L'occasion de rappeler que l'on fête les 20 ans de l'association le premier week-end de juin, venez !

@@ -1,0 +1,14 @@
+---
+layout: post
+published: true
+date: 2011-04-23
+tags: [  mouette , travaux, goeland]
+title: début des travaux sur la Mouette
+---
+
+C'est lancé ! depuis ce matin, la Mouette est sur cale (Saint Christophe), et nous avons déjà commencé à démonter un peu. 
+Nous continuons les jours qui suivent... 
+
+Je prévois aussi de finir d'armer le Goéland pour lundi, avec peut-être un tour aux maquereaux l'après-midi, selon météo.
+
+{% include 20110423_travaux_mouette.html %}
