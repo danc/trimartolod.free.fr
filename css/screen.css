@@ -21,6 +21,7 @@ body {
   font-family: 'Droid Sans',"Helvetica Neue",Helvetica,Verdana,sans-serif;
   font-size: 12pt;
   line-height: 1.3em;
+
 }
 
 h1, h2, h3, h4 {
@@ -47,6 +48,7 @@ p {
 a {
   color:  #707070;
   text-decoration: none;
+  
 }
 
 a:hover {
@@ -170,6 +172,16 @@ table {
 }
 #post h1:first-letter  { font-size: 200%; float: none }
 
+#post a {
+ border-bottom: 1px solid red;
+ }
+#post a:hover {
+  border-bottom: 3px solid darkgray;
+}
+#post a:visited {
+  color: grey;
+  border-bottom: 1px solid darkgray;
+} 
 #categories {
  font-size: 85%;
  float: right;
