@@ -2,7 +2,7 @@
 layout: post
 published: true
 date: 2011-06-03
-tags: [ photo, asso, accueil, 20ans ]
+tags: [ photo, asso, 20ans ]
 title: 20 ans Tri Martolod
 ---
 
