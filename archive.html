@@ -1,0 +1,15 @@
+---
+layout: default
+title: Tri Martolod Archives
+---
+
+<div id="post">
+<ul>
+  {% for post in site.posts  %}
+    <li>{{ post.date | date: "%d %b %Y " }} <a class="zoom" href="{{ post.url }}">&#x2767;&nbsp;{{ post.title }}</a></li>
+  {% endfor %}
+
+  
+</ul>
+</div>
+
