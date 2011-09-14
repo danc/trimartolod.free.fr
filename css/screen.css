@@ -202,7 +202,7 @@ table {
   float: right;
 }
 .prevnext {
-  padding: 24px 2px 2px 2px;
+  padding: 4px 2px 2px 2px;
  }
 
 
@@ -301,3 +301,33 @@ float:left;
   font-size: 85%;
   
 }
+
+
+#comments {
+  font-size: 75%;
+}
+
+.comment_odd {
+  background: #CCCFD5;
+    border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px ;
+	-khtml-border-radius: 6px ;
+  padding : 0.5em;
+  }
+  
+.comment_even {
+  background: #EDEDED;
+    border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px ;
+	-khtml-border-radius: 6px ;
+  padding : 0.5em;
+  }
+.comment_header {
+  font-style:italic;
+   border-bottom: 1px solid gray;
+  }
+.comment_date {
+  font-style:italic;
+  }

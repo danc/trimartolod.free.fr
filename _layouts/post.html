@@ -1,7 +1,7 @@
 ---
 layout: basic
 ---
-
+{% include prevnext.textile %}
 {% include date.textile %}
 {% include tagstopics.textile %}
 
@@ -9,24 +9,60 @@ layout: basic
 <h1>{{  page.title }}</h1>
 {{ content }}
 </div>
-
-
-
 {% include prevnext.textile %}
 <hr>
-
-<div class="comments">
- <a href="#disqus_thread" onclick="showComments('{{ site.url }}', '{{ page.url }}')" shape="rect">vos commentaires ...</a>
- <div class="p" id="comments"></div>
+<div id="comments">
+	{% case page.comment_count %}
+		{% when 0 %}
+		{% when 1 %}
+			<h1>1 Commentaire</h1>
+		{% else %}
+			<h1>{{page.comment_count}} Commentaires</h1>
+	{% endcase %}
+	{% for c in page.comments %}
+		<div class="comment_{% cycle 'odd', 'even' %}">
+			<p class="comment_header">
+				De {% if c.link %}
+					<a href="{{c.link}}">{{c.name}}</a>
+				{% else %}
+					{{c.name}}
+				{% endif %}
+	
+				<span class="comment_date"> le {{c.date}}</span>
+			</p>
+			<p>
+				{{c.comment | newline_to_br}}
+			</p>
+		</div>
+	{% endfor %}
+	<h1>Ajouter un commentaire</h1>
+	<p style="font-style: italic">
+		Tous les commentaires sont modérés.
+	</p>
+	<form id="commentform" method="POST" action="{{site.url}}/commentsubmit.php">
+		<input type="hidden" name="post_id" value="{{page.id}}" />
+		<table>
+			<tr>
+				<th>Nom, pseudo:</th>
+				<td><input type="text" size="25" name="name" /> (nécessaire)</td>
+			</tr>
+			<tr>
+				<th>Courriel, E-mail:</th>
+				<td><input type="text" size="25" name="email" /> (nécessaire, non publié)</td>
+			</tr>
+			<tr>
+				<th>Site:</th>
+				<td><input type="text" size="25" name="link" /> (optionnel)</td>
+			</tr>
+			<tr>
+				<td colspan="2"><textarea name="comment" rows="10" cols="60" ></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submit" value="Envoyer le commentaire" /></td>
+			</tr>
+		</table>
+	</form>
+<small><a href="http://hezmatt.org/~mpalmer/blog/2011/07/19/static-comments-in-jekyll.html">commentaires : crédits Matt Palmer</a></small>
 </div>
-<script type="text/javascript">
 
-    var disqus_shortname = 'trimartolod'; 
-    
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'http://disqus.com/forums/' + disqus_shortname + '/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
+
