@@ -1,9 +1,0 @@
----
-layout: post
-spip_id: 93
-title: "Toutes les photos du Dom Michel"
-tags: [dommichel, photo]
----
-"article spip original":http://trimartolod.free.fr/spip/spip.php?article93
-
-"Toutes les photos du Dom Michel":http://trimartolod.free.fr/dommichel

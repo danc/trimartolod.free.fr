@@ -2,6 +2,28 @@
 layout: default
 ---
 
+{% if page.tag == "mouette" %}
+{% include bestof_mouette.html %}
+{% endif %}
+
+{% if page.tag == "goeland" %}
+{% include bestof_goeland.html %}
+{% endif %}
+
+{% if page.tag == "toutouic" %}
+{% include bestof_toutouic.html %}
+{% endif %}
+
+{% if page.tag == "dommichel" %}
+{% include bestof_dommichel.html %}
+{% endif %}
+
+{% if page.tag == "fleurdesabers" %}
+{% include bestof_fleurdesabers.html %}
+{% endif %}
+
+
+
 <!--span class="citation">{{ page.citation }} </span-->
 
 {% if page.related %}
@@ -27,4 +49,12 @@ layout: default
 {% endfor %}
 </ul>
 </div>
+
+{% if page.tag == "presentation" %}
+{% include quirataires_goeland.html %}
+{% include quirataires_mouette.html %}
+{% include quirataires_toutouic.html %}
+{% include quirataires_dommichel.html %}
+{% include quirataires_fleurdesabers.html %}
+{% endif %}
 

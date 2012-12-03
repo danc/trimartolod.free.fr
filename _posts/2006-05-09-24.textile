@@ -1,9 +1,0 @@
----
-layout: post
-spip_id: 24
-title: "Dom michel a des préceintes neuves"
-tag: dommichel
----
-"article spip original":http://trimartolod.free.fr/spip/spip.php?article24
-
-Finalement, ne trouvant pas de planches de la bonne longueur, les préceintes ont été posées avec un joli scarf dans l'épaisseur de la préceinte (plus discret, plus étanche)

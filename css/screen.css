@@ -15,10 +15,11 @@ html, body {
   height: 100%;
 }
 
+
 body {
   background-color: white;
   color: #444444;
-  font-family: 'Droid Sans',"Helvetica Neue",Helvetica,Verdana,sans-serif;
+  font-family:  'Droid Sans',"Helvetica Neue",Helvetica,Verdana,sans-serif;
   font-size: 12pt;
   line-height: 1.3em;
 
@@ -76,7 +77,7 @@ table {
 }
 
 #asso b  {
-  font-family: 'Droid Sans',"Helvetica Neue",Helvetica,Verdana,sans-serif;
+  font-family:  'Droid Sans',"Helvetica Neue",Helvetica,Verdana,sans-serif;
   font-size: 12pt;
   line-height: 1.3em;
   font-size: 130%;
@@ -93,19 +94,20 @@ table {
   clear: right;
 
 }
-.zoom:hover {
-   font-size: 130%;
-   /* border: 0px; */
+
+  .zoom:hover {
+  /* font-size: 130%;*/
    border-bottom: 1px solid darkgray;
-   font-style:italic;
+   /*font-style:italic;*/
 }
+
 
 .bandeau {
 
  /* float: left;*/
   text-align: center;
   margin: 0em 2em 2em 1em;
-  background: url(aldine.png) no-repeat  175px 3px;
+  background: url(aldine.png) no-repeat  275px 3px;
  
 }
 .bandeau span a:hover {
@@ -115,6 +117,9 @@ table {
 }
 .top {
   float:left;
+}
+#archive {
+  float:right;
 }
 .bandeau1 {
  margin-left:auto;
@@ -173,14 +178,14 @@ table {
 #post h1:first-letter  { font-size: 200%; float: none }
 
 #post a {
- border-bottom: 1px solid red;
+ /*border-bottom: 1px solid red;*/
  }
 #post a:hover {
-  border-bottom: 3px solid darkgray;
+  border-bottom: 1px solid darkgray;
 }
 #post a:visited {
   color: grey;
-  border-bottom: 1px solid darkgray;
+  /*border-bottom: 1px solid darkgray;*/
 } 
 #categories {
  font-size: 85%;
@@ -212,7 +217,7 @@ float:left;
 }
 .prev:hover {
 
-  font-size: 130%;
+  /*font-size: 130%;*/
    border: 0px;
    font-style:italic;
 }
@@ -223,13 +228,15 @@ float:left;
  /* background: url(aldine.png) no-repeat  right top; */
 
   }
+  
 .next:hover {  
-  font-size: 130%;
+ /* font-size: 130%;*/
    border: 0px;
    font-style:italic;
 }
+
 .nuage div a:hover {  
-  font-size: 130%;
+  /*font-size: 130%;*/
    border: 0px;
    color: #4e5a70
 }
@@ -331,3 +338,8 @@ float:left;
 .comment_date {
   font-style:italic;
   }
+
+.highslide-caption {
+  text-align: center;
+  font-style:italic;
+}

@@ -4,7 +4,24 @@ title: Tri Martolod Archives
 ---
 
 <div id="post">
+	
+		
+<!--div class="nuage">
+<div id="categories">
 <ul>
+    {% for cat in site.iterable.categories | sort %}
+      <a style="font-size: 12px" href="/topics/{{ cat.name }}">{{ cat.name }} ({{ cat.posts.size }} articles)</a>
+      {% if forloop.last == false %},&nbsp;{% endif %}
+    {% endfor %}
+</ul>
+</div>
+</div-->
+
+{% include super_bestof.html %}
+	
+<ul>
+
+
   {% for post in site.posts  %}
     <li>{{ post.date | date: "%d %b %Y " }} <a class="zoom" href="{{ post.url }}">&#x2767;&nbsp;{{ post.title }}</a></li>
   {% endfor %}

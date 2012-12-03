@@ -3,7 +3,7 @@ layout: basic
 ---
 {% include prevnext.textile %}
 {% include date.textile %}
-{% include tagstopics.textile %}
+{% include tags.textile %}
 
 <div id="post">
 <h1>{{  page.title }}</h1>
@@ -40,7 +40,7 @@ layout: basic
 		Tous les commentaires sont modérés.
 	</p>
 	<form id="commentform" method="POST" action="{{site.url}}/commentsubmit.php">
-		<input type="hidden" name="post_id" value="{{page.id}}" />
+		
 		<table>
 			<tr>
 				<th>Nom, pseudo:</th>
@@ -58,7 +58,8 @@ layout: basic
 				<td colspan="2"><textarea name="comment" rows="10" cols="60" ></textarea></td>
 			</tr>
 			<tr>
-				<td><input type="submit" name="submit" value="Envoyer le commentaire" /></td>
+				<td><input type="submit" name="submit" value="Envoyer le commentaire" />
+				<input type="hidden" name="post_id" value="{{page.id}}" /></td>
 			</tr>
 		</table>
 	</form>
