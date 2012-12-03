@@ -1,0 +1,35 @@
+
+
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 400,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#CCCCFF',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#389fcf',
+      color: '#ffffff',
+      links: '#EF612F'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('Tri_Martolod').start();
+</script>
+
+

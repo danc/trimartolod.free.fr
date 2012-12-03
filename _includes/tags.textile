@@ -1,0 +1,5 @@
+<span id="categories">
+    {% for tag in page.tags  %}
+      <a href="/tag/{{ tag }}">{{ tag }}</a> &nbsp;
+    {% endfor %}
+</span>
