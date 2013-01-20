@@ -1,0 +1,58 @@
+---
+layout: post
+published: true
+date: 2012-10-06
+tags: [ mouette, bolinder, moteur, photo ]
+title: Moteur Bolinder
+---
+
+Voilà, le moteur de la Mouette a fait des siennes cet été, ce qui n'a pas empêché le bateau d'aller à Brest.
+
+Mais il a fallu le démonter, et lui faire un bon entretien.
+
+Quelques photos due la sortie du bateau (Merci à la maître de port pour l'utilisation de la grue !)
+
+Au passage, on peut admirer la forme du bateau vu d'en haut, et le pont.
+
+{% include moteur.html %}
+
+Et du démontage, inspection :
+
+{% include 201209_moteur_bolinder.html %}
+
+Il est en de bonnes mains, et on espère entendre bientôt le bon gros rythme du 2 temps nous accompagner pour la sortie du port.
+
+<span>
+<video autoplay="autoplay" controls="controls">
+  <source src="/videos/bolinder1.webm" type='video/webm; codecs="vp8, vorbis"' />
+  <source src="/videos/bolinder1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+  <source src="/videos/bolinder1.ogg" type='video/ogg; codecs="theora, vorbis"' />
+  Votre navigateur ne vous permet pas de voir cette vidéo. Plaignez-vous !
+</video>
+</span>
+
+<span>
+<video controls="controls">
+  <source src="/videos/bolinder2.webm" type='video/webm; codecs="vp8, vorbis"' />
+  <source src="/videos/bolinder2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+  <source src="/videos/bolinder2.ogg" type='video/ogg; codecs="theora, vorbis"' />
+  Votre navigateur ne vous permet pas de voir cette vidéo. Plaignez-vous !
+</video>
+</span>
+
+Quelques détails techniques:
+
+Nous avons commencé le démontage et nettoyage du moteur de la Mouette.
+Le démontage s'est bien passé (juste un petit bobo au front de Laurent)
+Nous avons démonté jusqu'aux pistons (voir photo)
+A priori, rien de grave pour l'instant. Il faut expertiser les pièces pour trouver le problème d'entrée d'eau.
+Actuellement, ce qui est prévu est de changer la culasse ainsi que les deux injecteurs (  en stock à Timartolod) et de nettoyer aux ultra-sons et nettoyage vapeur les pièces démontées.
+En cours avec Laurent et Alain.
+Le circuit gasoil (du filtre aux injecteurs) doit également être changé.
+Le joint de culasse est à priori bon.
+La vidange de la mayonnaise à été réalisé (+ de 20 litres)
+Reste le fond du moteur et le nettoyage complet de l'intérieur.
+Actuellement, le moteur est protégé avec du papier gras plein d'huile et bâché.
+
+La culasse de rechange est passé au premier nettoyage, pour contre le plan de joint n'est pas nickel (corrosion autour des passages de refroidissement sur des zones assez large!)
+Sinon l'injecteur qui était sorti avec sa chemise en cuivre à été démonté sans problème! mais la chemise est morte! 

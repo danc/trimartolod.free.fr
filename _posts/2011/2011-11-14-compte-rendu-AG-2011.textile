@@ -1,0 +1,12 @@
+---
+layout: post
+date: 2011-11-14
+tags: [ asso, ag ]
+title:  Compte rendu AG 2011
+---
+
+Tout le monde n'a pas pu venir, mais on a vu de nouvelles têtes, et aussi des gens qu'on n'avait pas vu depuis longtemps.
+
+"Le compte-rendu est là [PDF]":/infos_asso/2011/AG2011.pdf
+
+(inclus des corrections suggérées) 

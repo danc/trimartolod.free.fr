@@ -1,0 +1,25 @@
+---
+layout: post
+published: true
+date: 2010-10-01
+tags: [ photo, asso, mouette, iroise, île, beniguet, flickr, "photo aérienne"]
+title: Une promenade a Beniguet
+---
+
+Super bien !
+Merci à Jean-Christophe pour les photos !
+
+{% include 200909_beniguet_jca.html %}
+
+Au retour, le bateau a été survolé par un "photographe":http://www.flickr.com/photos/brestitude/ qui en a profité pour faire de superbes photos aériennes, et qui nous a fait indirectement parvenir "ce lien":http://www.flickr.com/search/?q=la%20mouette&w=9547593%40N08 
+
+
+{% include brestitude.html %}
+
+Photographies de _Laurent Névo_
+
+"http://www.flickr.com/photos/brestitude/5014552842/":http://www.flickr.com/photos/brestitude/5014552842/
+
+"http://www.flickr.com/photos/brestitude/4985784867/":http://www.flickr.com/photos/brestitude/4985784867/
+
+"http://www.flickr.com/photos/brestitude/5015908678/":http://www.flickr.com/photos/brestitude/5015908678/

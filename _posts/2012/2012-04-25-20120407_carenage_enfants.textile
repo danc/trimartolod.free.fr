@@ -1,0 +1,23 @@
+---
+layout: post
+published: true
+date: 2012-04-25
+tags: [ photo , carenage, travaux, mouette]
+title: Au carénage de la Mouette, les petits donnent l'exemple !
+---
+
+Ok, le travail des enfants est interdit, mais là, il s'agissait de jouer !
+
+Et quand on joue, on est très sérieux (et quand on boude aussi). 
+
+Les grands, ils prennent un peu de recul en souriant.
+
+{% include 20120407_carenage_enfants.html %}
+
+Merci aux coups de mains et aux visites, à bientôt sur l'eau !
+
+{% include 20120408_carenage_mouette.html %}
+
+Et voilà le travail, une semaine après :
+
+{% include 201204_Maison_des_Seigneurs.html %}

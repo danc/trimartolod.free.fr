@@ -1,0 +1,15 @@
+---
+layout: post
+published: true
+date: 2012-07-04
+tags: [ photo , mouette]
+title: Un taud et des haubans
+---
+
+Au cas où vous le sauriez pas, c'est bientôt les "Tonnerres de Brest":http://www.lestonnerresdebrest2012.fr/ (ou Brest 2012 pour les anciens).
+Et les martolods s'affairent entre autres choses à finir l'équipement de la Mouette.
+Ce jour là c'était entretien des haubans (avec détails sur le système de mise en tension des haubans métalliques avant fixation sur les caps de moutons, oui je sais j'étale ma science), et essayage du nouveau taud (comme c'est grand et beau et confortable !)
+
+{% include 20120630-taud-haubans.html %}
+
+A bientôt à la fête !

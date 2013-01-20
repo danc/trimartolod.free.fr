@@ -1,0 +1,9 @@
+---
+layout: post
+spip_id: 86
+title: "Photos du Goéland à Brest 2008"
+tags: [photo, rassemblement, goeland]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article86
+
+"http://trimartolod.free.fr/goeland/index.php?spgmGal=2008/080712_Brest_2008":http://trimartolod.free.fr/goeland/index.php?spgmGal=2008/080712_Brest_2008

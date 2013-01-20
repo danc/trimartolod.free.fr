@@ -1,0 +1,21 @@
+---
+layout: post
+tags: [asso, mouette, goeland, dommichel, toutouic, snsm]
+---
+
+Bruissements sur la liste de diffusion, les vacances font que plein de gens sont disponibles pour sortir les bateaux à la fête de la SNSM.
+
+__De notre reporter spécial Xavier :__
+
+Toutouic, Dom Michel, Goëland et La Mouette ont navigué à l’occasion de la fête de la SNSM 2010.
+
+Après avoir paradé devant la digue pendant la messe dite sur le port, les quatre bateaux ont participé à la bénédiction de la mer avec les canots et vedettes de la SNSM. 
+
+A midi, les équipages ont repris des forces avec le traditionnel Saucisse de Molène/frites.
+
+Durant l’après-midi, dans un tout petit temps, La Mouette et Toutouic sont ressortis pour assister depuis la mer (et de très près pour Toutouic !!!) aux exercices d’hélitreuillage. 
+
+Journée très sympa à renouveler souvent !
+
+{% include 20100718_snsm_conquet.html %}
+

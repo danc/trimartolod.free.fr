@@ -1,0 +1,28 @@
+---
+layout: post
+published: true
+date: 2011-04-16
+tags: [ web, mouette , video]
+title: Revue de Web pour la Mouette
+---
+
+Grâce aux yeux de lynx d'Alain et Olivier, on a trouvé des pièces d'anthologie sur le net :
+
+Les cinq quirataires de la Mouette à bord, sous voile. (vous vous rappelez où c'était ?)
+
+* Pour le moment en page d'accueil de "http://www.brest-evenements-nautiques.fr":http://www.brest-evenements-nautiques.fr, 
+* plus précisément "http://www.brest-evenements-nautiques.fr/medias/1302793110.jpg":http://www.brest-evenements-nautiques.fr/medias/1302793110.jpg
+<center>
+!1302793110.jpg!
+</center>
+* Et sur le site des fêtes maritimes de Brest "http://www.fetes-maritimes-brest.fr/fr/les-fetes-en-images/":http://www.fetes-maritimes-brest.fr/fr/les-fetes-en-images/ , 
+* la première vidéo en bas à gauche "http://www.fetes-maritimes-brest.fr/medias/521-jeudi-17-depart.flv":http://www.fetes-maritimes-brest.fr/medias/521-jeudi-17-depart.flv 
+* (vers le début, la Mouette apparaît à deux reprises, le reste vaut le coup d'oeil !)
+
+<center>!Capture-521-jeudi-17-depart.flv-1.png!
+<object type="application/x-shockwave-flash" data="/videos/player_flv_mini.swf" width="320" height="240">
+	<param name="movie" value="/videos/player_flv_mini.swf" />
+	<param name="allowFullScreen" value="false" />
+	<param name="FlashVars" value="flv=/videos/521-jeudi-17-depart.flv" />
+</object>
+</center>

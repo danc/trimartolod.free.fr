@@ -1,0 +1,23 @@
+---
+layout: post
+published: true
+date: 2012-11-18
+tags: [ photo, asso , mouette, goeland]
+title: AG Trimartolod 2012
+---
+
+Et l'Assemblée Générale a eu lieu cette année dans la petite maison dans la prairie.
+
+Bienvenue aux nouvelles têtes et merci pour les coups de main.
+
+{% include 20121110_AG.html %}
+
+Les bateaux ont été désarmés par la même occasion (Mouette et Goéland, la grand voile de la Mouette a été lessivée, et le lendemain, les mousses ont été contents d'accompagner le Goéland sur son mouillage d'hiver, et de s'entraîner un peu à la godille.
+
+PS : ça y est ! les vidéos sont sur "la page précédente":/2012/10/201209_moteur_bolinder/ !
+
+PS2 : "Le compte rendu tant attendu":http://trimartolod.free.fr/infos_asso/2012/20121110_AG/AG_TM_2012.pdf
+
+Comme on parle de refaire le cachoutage l'an prochain, voici les photos du dernier tannage en 2009, récupérées dans la "riche photothèque Tri Martolod":infos_asso/ :
+
+{% include 2009_cachoutage.html %}

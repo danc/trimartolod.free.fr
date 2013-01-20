@@ -1,0 +1,9 @@
+---
+layout: post
+spip_id: 87
+title: "Photos de la Mouette à Brest 2008"
+tags: [mouette, photo, rassemblement]
+---
+"article spip original":http://trimartolod.free.fr/spip/spip.php?article87
+
+"http://trimartolod.free.fr/mouette/index.php?spgmGal=2008/080712_Brest_2008":http://trimartolod.free.fr/mouette/index.php?spgmGal=2008/080712_Brest_2008

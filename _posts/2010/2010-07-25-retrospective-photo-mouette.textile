@@ -1,0 +1,21 @@
+---
+layout: post
+
+tags: 
+- presentation
+- mouette
+- photo
+
+---
+Depuis une quinzaine d'années, on stocke des photos sur le site, classées par année, par thème, etc...
+Il m'est venue l'envie de faire resortir une sélection de plusieurs photos au fil des ans.
+
+Et maintenant, un échantillon des photos de la Mouette :
+
+{% include bestof_mouette.html %}
+
+Si vous voulez aider à le compléter, il suffit de rajouter un lien d'une photo du site
+qui vous plait, comme dans ce "fichier":/jekyll/_timelines/bestof_mouette 
+et de me renvoyer le tout pour mise en forme.
+
+"Les archives photos de La Mouette":/mouette

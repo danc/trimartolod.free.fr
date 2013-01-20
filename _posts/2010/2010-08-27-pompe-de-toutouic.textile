@@ -1,0 +1,13 @@
+---
+layout: post
+tags: [toutouic, construction, photo]
+---
+Suite à une "jolie photo":http://www.google.com/url?sa=D&q=http://cjoint.com/%3FizagNTe3j4&usg=AFQjCNELMCNn49zNsdcoTsUtO4cRjg7teQ  prise cet été, 
+la discussion a fait rage sur les groupes de discussion "fr.rec.photo":http://groups.google.fr/group/fr.rec.photo/browse_thread/thread/d5ec360570e66d67 , puis sur fr.rec.bateaux : Qu'est donc ce truc sur Toutouic, qui ressemblerait à un puit de dérive ?
+
+{% include 20100827_fr_rec_photo.html %}
+__Photo Stephane Legras-Decussy, sur fr.rec.photo__
+
+Il s'agit du corps de pompe, dont on voit le piston dépasser sur la photo.
+L'eau pompée du fond du bateau est évacuée par le banc auquel la pompe est accolée. Le banc est creux, et débouche sur un petit dallot de chaque côté du bateau.
+Le modèle a été repris du Goéland, l'autre très beau misainier que l'on voit en arrière plan sur la photo. 

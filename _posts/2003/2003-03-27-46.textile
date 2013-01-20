@@ -1,0 +1,19 @@
+---
+layout: post
+spip_id: 46
+title: "Contacts"
+tags: 
+- presentation
+- contact
+- asso
+---
+
+
+
+h1. Adresse (courrier officiel)
+
+| Association Tri Martolod <br>59, rue Robert Schumann<br>29217 LE CONQUET <br> Bretagne|
+
+h1. Courriel
+
+|<img src="http://trimartolod.free.fr/img/mail_coquilliers.png"> (contacts, secrétariat, ...) <br>ou<br><img src="http://trimartolod.free.fr/img/mail.png"> (web-pasteur)|

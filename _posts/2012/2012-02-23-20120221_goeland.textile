@@ -1,0 +1,17 @@
+---
+layout: post
+published: true
+date: 2012-02-23
+tags: [ photo, goeland, iroise ]
+title: Première sortie du Goéland
+---
+
+Devançant tout le monde, le Goéland se lance bravement sur la mer d'Iroise par un bel après midi d'hiver.
+
+{% include 20120221_goeland.html %}
+
+Il va falloir s'aligner pour sortir aussi tôt. 
+
+Bon, certains diront que ça compte pas, pasque le bateau n'était pas vraiment désarmé, et puis ?
+
+Bonnes nav's 2012 !

@@ -1,0 +1,16 @@
+---
+layout: post
+published: true
+date: 2012-02-12
+tags: [ photo, morlaix, moteur, mouette ]
+title: Retour de Morlaix
+---
+
+Avec un peu de retard, les photos de Stéphane sur le retour de Morlaix cet été (Entre Terre et Mer).
+Des vues intéressantes sur le démarrage du moteur, et la belle table à carte !
+
+Et au passage, l'île Vierge.
+
+{% include 201108_retour_Morlaix.html %}
+
+Merci pour les photos !

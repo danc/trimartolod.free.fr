@@ -1,0 +1,17 @@
+---
+layout: post
+published: true
+date: 2011-09-14
+tags: [ photo, tvk, rade, rassemblement, presse, mouette ]
+title: TVK 2011, du vent, la grève, et du scoop
+---
+
+Apparemment, ça a bastonné !
+
+Et Ouest-France, pour relater l'événement, a choisi une photo de la Mouette.
+
+{% include 20110910_tvk.html %}
+
+La plupart des photos, sauf celles de la "presse":http://www.ouest-france.fr/sport/dma_une_-Au-moins-23-abandons-sur-Toutes-voiles-Kerhorres-en-rade-de-Brest_44096-1986450-fils_filDMA.Htm (voir photo 2), proviennent du site de "TVK":http://tvk.infini.fr/nautique/index.php?option=com_joomgallery&func=viewcategory&catid=4
+
+Merci à leurs auteur(e)s, et aux yeux de lynx qui les ont repérées.

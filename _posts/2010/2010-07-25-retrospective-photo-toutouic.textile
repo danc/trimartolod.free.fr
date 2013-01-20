@@ -1,0 +1,20 @@
+---
+layout: post
+
+tags: 
+- presentation
+- toutouic
+- photo
+
+---
+Depuis une quinzaine d'années, on stocke des photos sur le site, classées par année, par thème, etc...
+Il m'est venue l'envie de faire resortir une sélection de plusieurs photos au fil des ans.
+
+
+{% include bestof_toutouic.html %}
+
+Si vous voulez aider à le compléter, il suffit de rajouter un lien d'une photo 
+qui vous plait sur le site, comme dans ce "fichier":/jekyll/_timelines/bestof_toutouic ,
+et de me renvoyer le tout pour mise en forme.
+
+"Les archives photos de Toutouic":/toutouic
