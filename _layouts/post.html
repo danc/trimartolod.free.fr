@@ -35,9 +35,9 @@ layout: basic
 			</p>
 		</div>
 	{% endfor %}
-	<h1>Ajouter un commentaire</h1>
+	<!--h1>Ajouter un commentaire</h1-->
 	<p style="font-style: italic">
-		Tous les commentaires sont modérés.
+		Votre avis :
 	</p>
 	<form id="commentform" method="POST" action="{{site.url}}/commentsubmit.php">
 		
@@ -58,12 +58,11 @@ layout: basic
 				<td colspan="2"><textarea name="comment" rows="10" cols="60" ></textarea></td>
 			</tr>
 			<tr>
-				<td><input type="submit" name="submit" value="Envoyer le commentaire" />
+				<td><input type="submit" name="submit" value="Envoi" />
 				<input type="hidden" name="post_id" value="{{page.id}}" /></td>
 			</tr>
 		</table>
 	</form>
-<small><a href="http://hezmatt.org/~mpalmer/blog/2011/07/19/static-comments-in-jekyll.html">commentaires : crédits Matt Palmer</a></small>
 </div>
 
 
