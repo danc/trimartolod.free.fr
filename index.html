@@ -6,67 +6,50 @@ title: Tri Martolod
 
 
 <div id="asso">
-<b>
-Association Tri Martolod</b>
-<i>Restauration et utilisation d'anciens bateaux de travail en bois</i>
-</div>
-
-
-
-<div class="citation">
-<i><p>Sans noeuds et sans bois fourchu,<br/>Il y aurait plus de charpentiers. </p>
-<p id="small">&nbsp;&nbsp;(prov. bretagne)</p></i>
-</div>
-
-
-
-{% for tag in site.iterable.tags %}
-{% if tag.name == 'accueil' %}
-<div class="une">
-<h5>à la une :</h5>
+<b>Association Tri Martolod</b><i>Restauration et utilisation d'anciens bateaux de travail en bois</i>
 <hr/>
-<ul>
-{% for post in tag.posts %}
-<li>{{ post.date | date: "%d %b %Y " }}<a class="zoom" href="{{ site.baseurl }}{{post.url}}">&#x2767;&nbsp;{{ post.title }}</a></li>
-{% endfor %}
-</ul>
 </div>
-{% endif %}
-{% endfor %}
-
-
-
-<div class="mus">
-<audio  controls="controls" autoplay>
-  <source src="http://trimartolod.free.fr/mus/trimartolod.mp3" type="audio/mp3"> 
-  <source src="http://trimartolod.free.fr/mus/trimartolod.ogg" type="audio/ogg"> 
-<!--- Pour les  navigateurs qui ne supportent pas html5 audio -->
-
-</audio>
+<div id="xyz">
+<i><p>Sans noeuds et sans bois fourchu,<br/>Il y aurait plus de charpentiers. </p>
+<p id="small">(prov. bretagne)</p></i>
+	
 </div>
+
+
+
+
+
+<div class="une">
+<h5>dernières photos publiées :</h5>
+<hr/>
+ {% include recent.textile %}
+</div>
+
+
+
 
 <div>
-<img src="css/mouettechantier.gif" alt="Aquarelle d'Hubert Michéa. La 
-Mouette en chantier"/>
+<img src="/infos_asso/2013/20121214_toile/drellach14122012.jpg" alt="Au Drellac'h en hiver"/>
 </div>
 
-
 <div id="post">
-
+le meilleur de la <a href="http://trimartolod.free.fr/infos_asso">photothèque</a>
 {% include super_bestof.html %}
 
 <hr/>
-les 7 derniers articles sur <a href="/archive.html">{{ site.posts | size }} ...</a>
-<div id="archive">
-<a href="/archive.html">archives</a>
-</div>
+les derniers articles parmi <a href="/archive.html">{{ site.posts | size }} ...</a>
+
 <ul>
 	
-  {% for post in site.posts limit: 7 %}
-    <li>{{ post.date | date: "%d %b %Y " }} <a class="zoom" href="{{ post.url }}">&#x2767;&nbsp;{{ post.title }}</a></li>
+  {% for post in site.posts limit: 16 %}
+    <li> &#x2767;&nbsp;<a class="zoom" href="{{ post.url }}">&nbsp;{{ post.title }}</a> <small>({{ post.date | date: "%d %m %Y " }})</small></li>
   {% endfor %}
 
 </ul>
+<div id="archive">
+<a href="/archive.html">archives</a>
+</div>
+<br/>
 </div>
 
 <br/>
@@ -87,13 +70,32 @@ les favoris de <a href="http://www.flickr.com/photos/trimartolod/favorites/">Tri
 
 <br/>
 
+
+<div class="citation">
+<audio  controls="controls" autoplay>
+  <source src="http://trimartolod.free.fr/mus/trimartolod.mp3" type="audio/mp3"> 
+  <source src="http://trimartolod.free.fr/mus/trimartolod.ogg" type="audio/ogg"> 
+<!--- Pour les  navigateurs qui ne supportent pas html5 audio -->
+
+</audio>
+</div>
+
+<div>
+<img src="css/mouettechantier.gif" alt="Aquarelle d'Hubert Michéa. La 
+Mouette en chantier"/>
+</div>
+
 <div>
 {% include twitter.html %}
 <br/>
 </div>
 
+
+
+
 <div class="powered">Mouliné par <a href="/tag/jekyll"> jekyll</a></div>
 <!--img src="css/cachou.jpg"-->
 
 <!--img src="css/brestitude.jpg"-->
+
 

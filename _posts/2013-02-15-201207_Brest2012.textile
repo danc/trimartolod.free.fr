@@ -1,0 +1,16 @@
+---
+layout: post
+published: true
+date: 2013-02-15
+tags: [ photo, rassemblement, greement, fete, rade ]
+title: Tonnerres de Brest (2012)
+---
+
+Même sans moteur La Mouette s’était bien débrouillée a Brest 2012...
+
+{% include 201207_Brest2012.html %}
+
+A mon avis, sur la photo, les deux plus belles voiles de la Manche / Atlantique Nord ...
+Avec <a href="http://www.marie-fernand.fr/">Marie-Fernand</a>, côtre-pilote du Hâvre
+
+!/infos_asso/2013/201207_Brest2012/539922_10151149211349513_919064573_n.jpg!

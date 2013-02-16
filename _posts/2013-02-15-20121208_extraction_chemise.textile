@@ -1,0 +1,17 @@
+---
+layout: post
+published: true
+date: 2012-12-08
+tags: [ photo , travaux, moteur]
+title: Tombez la chemise
+---
+
+Sur un air connu du côté de Marseille ;)
+
+Ca a été un peu difficile, mais la chemise endommagée du moteur a été extraite, comme on sort une vieille dent.
+
+{% include 20121208_extraction_chemise.html %}
+
+A remplacer dès que possible, avec un bon entretien moteur.
+
+!/infos_asso/2013/20121208_extraction_chemise/DSC_0229.jpeg!

@@ -1,0 +1,15 @@
+---
+layout: post
+published: true
+date: 2013-02-15
+tags: [ peinture, toile ]
+title: Vue hivernale
+---
+
+Une journée d'hiver, dans le port à marée basse, quelques bateaux, une artiste :
+
+{% include 20121214_toile.html %}
+
+Merci <3
+
+!/infos_asso/2013/20121214_toile/drellach14122012.jpg!

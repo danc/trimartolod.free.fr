@@ -2,21 +2,21 @@
 layout: post
 spip_id: 38
 title: "Tri Martolod dans le Chasse Marée"
-tags: [asso, presse, bateaux]
+tags: [asso, presse, bateaux, chassemaree]
 ---
-"article spip original":http://trimartolod.free.fr/spip/spip.php?article38
+
 
 On n'a pas l'habitude de faire de la pub, mais là, comme diraient certains :
 
-&#8220;C'est cool d'être dans "LE MAG"...&#8221;
+C'est cool d'être dans "LE MAG"...
 
 C'est le numéro 191, et les photos sont de nous ...
 
 Pas peu fiers, hein ?
 
-Allez-y "courez l'acheter":http://www.chasse-maree.com/cgi-bin/chasse-maree.storefront/FR/Product/02%2001%2091
+Allez-y "courez l'acheter":http://www.chasse-maree.com/la-collection/anciens-numeros/numeros-151-a-200/3,1191-chasse-maree-n-191.html
 
- ... ou piquez-le à lulu, il en a deux exemplaires ...
+ ... ou piquez-le à Lulu, il en a deux exemplaires ...
 
 
 L'article est bien, il y a sûrement des petites inexactitudes :
@@ -25,4 +25,12 @@ L'article est bien, il y a sûrement des petites inexactitudes :
 
  - qui est petit-fils de capitaine au long cours ?
 
-si vous voulez commenter, profitez-en !
+Si vous voulez commenter, profitez-en !
+
+h1. Extrait
+
+"*La flottille des Tri Martolod du Conquet*"
+	
+Voici une quinzaine d’années, trois anciens scouts marins, découvrent l’épave d’un canot à misaine au fond de la rade de Brest. 
+Sans argent ni compétences particulières, ils créent l’association Tri Martolod pour la restaurer. 
+Depuis lors, « les trois matelots » sont devenus charpentiers, gréeurs, voiliers, et leur flottille basée au Conquet ne cesse de s’étoffer.
